@@ -1,0 +1,38 @@
+footer{
+    width: 100%;
+    display: block;
+    padding: 15px 0px 20px 0;
+    background-color: black;
+}
+footer p, 
+footer a {
+    color: white;
+}
+footer .container .conteudo {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+footer .container .conteudo p:first-child{
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width:1024px){
+    footer .container .conteudo{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer .container .conteudo p:first-child{
+        margin-bottom: 0px;
+    }
+}
+
+
+
+
+
+

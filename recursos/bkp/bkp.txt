@@ -1,0 +1,117 @@
+ <section class="eventos1">
+                
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio">
+                        <input type="radio" name="radio-btn" id="radio">
+                        <input type="radio" name="radio-btn" id="radio">
+                        <input type="radio" name="radio-btn" id="radio">
+                        
+                        <div class="slide first">
+                            <img src="recursos/Imagens/curso-pnl.png" alt="image 1">
+                        </div>
+                        <div class="slide first">
+                            <img src="recursos/Imagens/galeria-eventos-2.png" alt="image 2">
+                        </div>
+                        <div class="slide first">
+                            <img src="recursos/Imagens/curso.png" alt="image 1">
+                        </div>
+                        <div class="slide first">
+                            <img src="recursos/Imagens/curso-pnl.png" alt="image 1">
+                        </div>
+
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </section>
+
+
+            .eventos1 .slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.eventos1 .slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+.eventos1 .slides input {
+    display: none;
+}
+.eventos1 .slide {
+    width: 25%;
+    position: relative;
+}
+.eventos1 .slide img {
+    width: 800px;
+}
+
+.eventos1 .manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.eventos1 .manual-btn {
+    border: 2px solid #1D2A3A;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.eventos1 .manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.eventos1 .manual-btn:hover {
+    background-color: #C6AD93;
+}
+.eventos1 #radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+.eventos1 #radio2:checked ~ .first{
+    margin-left: -25% ;
+}
+.eventos1 #radio3:checked ~ .first{
+    margin-left: -50% ;
+}
+.eventos1 #radio4:checked ~ .first{
+    margin-left: -75% ;
+}
+.eventos1 .slider .navigation-auto div{
+    border: 2px solid #1D2A3A;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+a parte do javascript
+
+document.addEventListener("DOMContentLoaded", function() {
+    var img = document.getElementById("centerImage");
+    img.addEventListener("click", function() {
+        img.classList.toggle("centered");
+    });
+});
+document.addEventListener("DOMContentLoaded", function() {
+    var img = document.getElementById("centerImage2");
+    img.addEventListener("click", function() {
+        img.classList.toggle("centered");
+    });
+});
