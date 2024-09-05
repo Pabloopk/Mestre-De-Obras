@@ -2,7 +2,7 @@ Um site desenvolvido para divulgação como portfolio, utilizando tecnologias mo
 
 
 
-Tecnologias Utilizadas:
+**Tecnologias Utilizadas:**
 
 -HTML5: Estruturação do conteúdo;
 
@@ -17,7 +17,7 @@ Tecnologias Utilizadas:
 -Canva: Design de elementos visuais e gráficos usados no site;
 
 
-Suas função
+**Sua Função**
 
 -Barra de menu: Customizado para mobile;
 
