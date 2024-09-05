@@ -21,7 +21,7 @@ Um site desenvolvido para divulgação como portfolio, utilizando tecnologias mo
 
 -Barra de menu: Customizado para mobile;
 
--Formulário de Contato;
+-Formulário de Contato: FormSubmiss;
 
 -Icones no Font Awesome;
 
