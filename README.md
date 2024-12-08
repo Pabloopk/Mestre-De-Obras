@@ -29,6 +29,6 @@ Um site desenvolvido para divulgação como portfolio, utilizando tecnologias mo
 
 Link do Site:
 
-https://pauloacabamentos.online
+https://pauloacabamentos.netlify.app/
 
 Site desenvolvido para crescimento profissional e pessoal.
